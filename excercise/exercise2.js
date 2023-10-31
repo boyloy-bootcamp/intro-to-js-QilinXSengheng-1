@@ -6,16 +6,19 @@ Write a function calculateRectangleArea that takes two parameters length and wid
 of a rectangle.
 example
 
-let length = 5;
-let width = 3;
 
-let area = calculateRectangleArea(length, width);
 
 console.log(area); // Output: 15
  */
 
 function calculateRectangleArea(length, width) {
-  // Your code here
+  let area = length * width;
+   return area
 }
+
+let length = 5;
+let width = 3;
+
+let area = calculateRectangleArea(length, width);
 
 module.exports = calculateRectangleArea;

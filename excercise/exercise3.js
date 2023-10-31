@@ -8,15 +8,19 @@ The formula is: F = C * 9/5 + 32.
 
 
 Example:
+ // Output: 77
+ */
+
+function celsiusToFahrenheit(celsius) {
+  let fahrenheit = (celsius * (9/5)) + 32;
+
+  return fahrenheit
+}
+
 let celsius = 25;
 
 let fahrenheit = celsiusToFahrenheit(celsius);
 
-console.log(fahrenheit); // Output: 77
- */
-
-function celsiusToFahrenheit(celsius) {
-  // Your code here
-}
+console.log(fahrenheit);
 
 module.exports = celsiusToFahrenheit;

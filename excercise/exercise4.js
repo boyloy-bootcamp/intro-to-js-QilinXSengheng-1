@@ -6,6 +6,14 @@ Write a function isEven that takes a number as input and returns true if it's ev
 
 Example
 
+
+
+ */
+
+function isEven(num) {
+   return num % 2 ===0;
+}
+
 let num1 = 10;
 let num2 = 7;
 
@@ -14,11 +22,5 @@ let even2 = isEven(num2);
 
 console.log(even1); // Output: true
 console.log(even2); // Output: false
-
- */
-
-function isEven(num) {
-  // Your code here
-}
 
 module.exports = isEven;

@@ -6,6 +6,20 @@ Write a function findSmallest that takes an array of numbers as input and return
 smallest number in the array.
 
 example:
+
+
+ */
+
+function findSmallest(numbers) {
+  let min = numbers[0];
+  for (let i = 0; i < 4; i++){
+    if (numbers[i] < min) {
+     min = numbers[i];
+    } 
+  }
+  return min;
+}
+
 let numbers1 = [4, 2, 7, 1, 9];
 let numbers2 = [10, 20, 5, 3, 30];
 
@@ -14,11 +28,5 @@ let smallest2 = findSmallest(numbers2);
 
 console.log(smallest1); // Output: 1
 console.log(smallest2); // Output: 3
-
- */
-
-function findSmallest(numbers) {
-  // Your code here
-}
 
 module.exports = findSmallest;
